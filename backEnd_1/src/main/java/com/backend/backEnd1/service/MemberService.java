@@ -1,16 +1,15 @@
-package com.backend.backEnd_1.service;
+package com.backend.backEnd1.service;
 
-import com.backend.backEnd_1.domain.Member;
-import com.backend.backEnd_1.repository.MemoryMemberInterface;
-import com.backend.backEnd_1.repository.MemoryMemberRepository;
+import com.backend.backEnd1.domain.Member;
+import com.backend.backEnd1.repository.MemoryMember;
 
 import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
-    private final MemoryMemberRepository memberRepository;
+    private MemoryMember memberRepository;
 
-    public MemberService(MemoryMemberRepository memberRepository) {
+    public MemberService(MemoryMember memberRepository) {
         this.memberRepository = memberRepository;
     }
 

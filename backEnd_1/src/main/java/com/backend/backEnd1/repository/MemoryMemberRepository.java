@@ -1,10 +1,10 @@
-package com.backend.backEnd_1.repository;
+package com.backend.backEnd1.repository;
 
-import com.backend.backEnd_1.domain.Member;
+import com.backend.backEnd1.domain.Member;
 
 import java.util.*;
 
-public class MemoryMemberRepository implements MemoryMemberInterface {
+public class MemoryMemberRepository implements MemoryMember {
 
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;

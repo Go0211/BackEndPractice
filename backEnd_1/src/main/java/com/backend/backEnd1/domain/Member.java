@@ -1,4 +1,4 @@
-package com.backend.backEnd_1.domain;
+package com.backend.backEnd1.domain;
 
 public class Member {
 

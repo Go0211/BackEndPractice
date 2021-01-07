@@ -1,4 +1,4 @@
-package com.backend.backEnd_1.controller;
+package com.backend.backEnd1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

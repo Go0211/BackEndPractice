@@ -1,6 +1,6 @@
-package com.backend.backEnd_1.repository;
+package com.backend.backEnd1.repository;
 
-import com.backend.backEnd_1.domain.Member;
+import com.backend.backEnd1.domain.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 

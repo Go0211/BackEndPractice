@@ -1,7 +1,7 @@
-package com.backend.backEnd_1.service;
+package com.backend.backEnd1.service;
 
-import com.backend.backEnd_1.domain.Member;
-import com.backend.backEnd_1.repository.MemoryMemberRepository;
+import com.backend.backEnd1.domain.Member;
+import com.backend.backEnd1.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
