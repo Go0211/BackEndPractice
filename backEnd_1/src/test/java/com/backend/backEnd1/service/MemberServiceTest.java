@@ -34,6 +34,7 @@ class MemberServiceTest {
         Long saveId = memberService.join(member);
 
         //then
+        Member findMember = memberService.findOne(saveId).get();
         assertThat(member.getName())
                 .isEqualTo(memberService.findOne(saveId).get().getName());
 
@@ -51,9 +52,6 @@ class MemberServiceTest {
         //when
         memberService.join(member1);
         assertThrows(IllegalStateException.class, () -> memberService.join(member2));
-
-        //then
-
     }
 
     @Test
