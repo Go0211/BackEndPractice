@@ -2,10 +2,12 @@ package com.backend.backEnd1.service;
 
 import com.backend.backEnd1.domain.Member;
 import com.backend.backEnd1.repository.MemoryMember;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
     private MemoryMember memberRepository;
 
